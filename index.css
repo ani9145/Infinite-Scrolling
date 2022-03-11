@@ -15,7 +15,7 @@
 }
 #i-list::-webkit-scrollbar-thumb{
     height: 5rem;
-   background-color: grey;
+   background-color: rgba(46, 4, 31, 0.4);
    border-radius: 5rem;
 }
 li{
@@ -26,7 +26,7 @@ li{
   font-size: 1.9rem;
   }
   li:hover {
-    background: #ccc;
+    background: linear-gradient(to bottom, #0dbbf5 0%, #b98aa2 100%);
   }
   body{
       margin: auto;
